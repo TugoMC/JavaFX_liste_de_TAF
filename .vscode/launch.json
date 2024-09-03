@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AdvancedTodoApps",
+            "request": "launch",
+            "mainClass": "AdvancedTodoApps",
+            "projectName": "TODO APP PROJET INFORMATIQUE_b88f90e7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "TODO APP PROJET INFORMATIQUE_b88f90e7"
+        },
+        {
+            "type": "java",
             "name": "AdvancedTodoApp",
             "request": "launch",
             "mainClass": "AdvancedTodoApp",
