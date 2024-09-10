@@ -1,4 +1,4 @@
-package model;
+package ci.pigier.todoapp;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -25,14 +25,19 @@ public class Task {
     // Getters and setters
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }
+
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
+
     public LocalDate getDueDate() { return dueDate; }
     public void setDueDate(LocalDate dueDate) { this.dueDate = dueDate; }
+
     public String getList() { return list; }
     public void setList(String list) { this.list = list; }
+
     public List<String> getTags() { return tags; }
     public void setTags(String[] tags) { this.tags = new ArrayList<>(Arrays.asList(tags)); }
+
     public Priority getPriority() { return priority; }
     public void setPriority(Priority priority) { this.priority = priority; }
 }
